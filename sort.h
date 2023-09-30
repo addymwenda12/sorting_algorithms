@@ -45,6 +45,9 @@ void m_sort(int *ar, int *tmp, size_t l, size_t r);
 void merger(int *ar, int *tmp, size_t l, size_t m, size_t r);
 void m_print(int *ar, int *tmp, size_t l, size_t m, size_t r);
 void m_copyarr(int *source, int *dest, size_t left, size_t right);
+void swap_ints(int *a, int *b);
+void max_heapify(int *array, size_t size, size_t base, size_t root);
+void heap_sort(int *array, size_t size);
 
 
 #endif /* SORT_H */
