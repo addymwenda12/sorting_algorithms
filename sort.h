@@ -36,6 +36,7 @@ void quick_sort_hoare(int *array, size_t size);
 /* Function in merge sort */
 void sorted(int *array, int first, int last, size_t n);
 int partition(int *array, int first, int last, size_t n);
+void swap_ints(int *a, int *b);
 
 
 #endif /* SORT_H */
