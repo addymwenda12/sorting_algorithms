@@ -38,6 +38,7 @@ void sorted(int *array, int first, int last, size_t n);
 int partition(int *array, int first, int last, size_t n);
 void swap_ints(int *a, int *b);
 int compare_swap(listint_t **list, listint_t **node1, listint_t **node2);
+void set_array(int *array, size_t size, int value);
 
 
 #endif /* SORT_H */
