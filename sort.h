@@ -41,6 +41,10 @@ int compare_swap(listint_t **list, listint_t **node1, listint_t **node2);
 void set_array(int *array, size_t size, int value);
 void arraycpy(int *array, int *new_arr, size_t size);
 int find_max(int *array, size_t size);
+void m_sort(int *ar, int *tmp, size_t l, size_t r);
+void merger(int *ar, int *tmp, size_t l, size_t m, size_t r);
+void m_print(int *ar, int *tmp, size_t l, size_t m, size_t r);
+void m_copyarr(int *source, int *dest, size_t left, size_t right);
 
 
 #endif /* SORT_H */
